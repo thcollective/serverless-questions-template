@@ -1,9 +1,9 @@
 # Serverless Questions Template
 
 ### Endpoints
-`Local`: https://nzw1fl3dka.execute-api.ap-southeast-1.amazonaws.com
-`Staging`:
-`Production`:
+- `Local`: https://nzw1fl3dka.execute-api.ap-southeast-1.amazonaws.com
+- `Staging`:
+- `Production`:
 
 ### API Routes
 `GET /base`
