@@ -1,0 +1,24 @@
+{
+  "name": "serverless-questions-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "sst test",
+    "start": "sst start",
+    "build": "sst build",
+    "deploy": "sst deploy",
+    "remove": "sst remove"
+  },
+  "eslintConfig": {
+    "extends": [
+      "serverless-stack"
+    ]
+  },
+  "dependencies": {
+    "@serverless-stack/cli": "0.69.1",
+    "@serverless-stack/resources": "0.69.1",
+    "aws-cdk-lib": "2.15.0",
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0"
+  }
+}
