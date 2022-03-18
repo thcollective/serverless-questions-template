@@ -2,8 +2,8 @@
 
 ### Endpoints
 - `Local`: https://nzw1fl3dka.execute-api.ap-southeast-1.amazonaws.com
-- `Staging`:
-- `Production`:
+- `Staging`: https://qkva3dd0nk.execute-api.ap-southeast-1.amazonaws.com
+- `Production`: https://svhmmdxylf.execute-api.ap-southeast-1.amazonaws.com
 
 ### API Routes
 `GET /base`
