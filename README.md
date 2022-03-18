@@ -1,44 +1,19 @@
-# Getting Started with Serverless Stack (SST)
+# Serverless Questions Template
 
-This project was bootstrapped with [Create Serverless Stack](https://docs.serverless-stack.com/packages/create-serverless-stack).
+### Endpoints
+`Local`: https://nzw1fl3dka.execute-api.ap-southeast-1.amazonaws.com
+`Staging`:
+`Production`:
 
-Start by installing the dependencies.
+### API Routes
+`GET /base`
+Get base template
 
-```bash
-$ npm install
-```
+`GET /portfolio`
+Get portfolio template
 
-## Commands
+`GET /fridayEvents`
+Get friday events template
 
-### `npm run start`
-
-Starts the local Lambda development environment.
-
-### `npm run build`
-
-Build your app and synthesize your stacks.
-
-Generates a `.build/` directory with the compiled files and a `.build/cdk.out/` directory with the synthesized CloudFormation stacks.
-
-### `npm run deploy [stack]`
-
-Deploy all your stacks to AWS. Or optionally deploy, a specific stack.
-
-### `npm run remove [stack]`
-
-Remove all your stacks and all of their resources from AWS. Or optionally removes, a specific stack.
-
-### `npm run test`
-
-Runs your tests using Jest. Takes all the [Jest CLI options](https://jestjs.io/docs/en/cli).
-
-## Documentation
-
-Learn more about the Serverless Stack.
-- [Docs](https://docs.serverless-stack.com)
-- [@serverless-stack/cli](https://docs.serverless-stack.com/packages/cli)
-- [@serverless-stack/resources](https://docs.serverless-stack.com/packages/resources)
-
-## Community
-
-[Follow us on Twitter](https://twitter.com/ServerlessStack) or [post on our forums](https://discourse.serverless-stack.com).
+`GET /professionalService`
+Get professional service template
